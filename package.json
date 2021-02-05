@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "marc mendoza",
   "license": "MIT",
-  "homepage": "https://777marc.github.io/portfolio",
+  "homepage": "https://777marc.github.io/portfolio/",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
