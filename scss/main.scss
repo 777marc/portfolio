@@ -74,6 +74,7 @@ main {
 }
 
 .about-info {
+  min-height: calc(100vh - 60px);
   display: grid;
   grid-gap: 30px;
   grid-template-areas: "bioimage bio bio" "job1 job2 job3";
