@@ -98,7 +98,7 @@
 body {
   background: #445;
   color: #e5e5e5;
-  min-height: calc(100vh - 60px);
+  min-height: calc(100vh);
   margin: 0;
   font-family: "Roboto Mono", monospace;
   line-height: 1.5; }
