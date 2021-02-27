@@ -157,6 +157,7 @@ main {
 }
 
 .projects {
+  min-height: calc(100vh - 60px);
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr);
@@ -175,6 +176,7 @@ main {
 
 // contact
 .boxes {
+  min-height: calc(100vh - 60px);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
