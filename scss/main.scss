@@ -32,6 +32,10 @@ h3 {
   }
 }
 
+.sub-text {
+  font-size: 12px;
+}
+
 a {
   color: set-text-color($primary-color);
   text-decoration: none;
@@ -110,8 +114,9 @@ main {
   }
 
   .skill {
-    background-color: $secondary-color;
-    color: $primary-color;
+    background-color: $primary-color;
+    color: $secondary-color;
+    border: 1px solid $secondary-color;
     min-width:100px; 
     display: inline-block;
     border-top-left-radius: 20px;
@@ -124,9 +129,8 @@ main {
     padding: .5rem .7rem;
 
     &:hover {
-      background-color: $primary-color;
-      color: $secondary-color;
-      border: 1px solid $secondary-color;
+      background-color: $secondary-color;
+      color: $primary-color;
     }
   }
 
