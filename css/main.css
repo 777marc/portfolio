@@ -201,7 +201,8 @@ main {
     text-align: center;
     vertical-align: middle;
     margin: 0 5px 5px 0;
-    padding: .5rem .7rem; }
+    padding: .5rem .7rem;
+    max-height: 2.9em; }
     .about-info .skill:hover {
       background-color: #d6b917;
       color: #445; }
